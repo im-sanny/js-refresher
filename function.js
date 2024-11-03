@@ -22,3 +22,10 @@ const ello = () => {
   };
 };
 console.log(ello());
+
+// anonymous function
+function anonymous() {
+  return () => {
+    console.log("Hello world");
+  };
+}
